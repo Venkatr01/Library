@@ -1,8 +1,25 @@
-/* #container{
-    background-color: black;
-} */
+#new-book-card{
+    display: flex;
+    justify-content: center;
+}
 
 #new-book-btn{
-    background-color: aqua;
-    margin: 100px;
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#form-card{
+    display: flex;
+    /* flex-direction: row; */
+    /* width: 300px;
+    height: 300px; */
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    background-color: palevioletred;
+    flex-direction: column;
 }
