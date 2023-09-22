@@ -23,10 +23,10 @@ function render(){
     let book = myLibrary[i];
     let bookEl = document.createElement("div");
     bookEl.innerHTML = `
-    <p>${book.title} <br> , ${book.author} , ${book.pages} , ${book.read ? "Read" : "Not Read Yet"}</p>
-    <button onclick="removeBook(${i})">Remove</button>
+    <p>${book.title} <br> ${book.author} <br> ${book.pages} <br> ${book.read ? "Read" : "Not Read Yet"}
+    <button class="remove-btn" onclick="removeBook(${i})">Remove</button>
     <button onclick="toggleRead(${i})">Toggle Read</button>
-    
+    </p>
     `;
     
     libraryEl.appendChild(bookEl);
