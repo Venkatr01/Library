@@ -82,11 +82,12 @@ label{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    /* border: 2px solid black; */
 }
 p{
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
+    border: 2px solid rgb(29, 27, 27);
     height: 200px;
     width: 190px;
     align-items: center;
@@ -97,3 +98,4 @@ p{
     width: 70px;
     align-items: c;
 }
+
